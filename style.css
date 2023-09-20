@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 247, 238);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    
+}
+
+
+:root {
+    --clr-primary-1: rgb(141, 120, 0);
+    --clr-primary-2: rgb(255, 255, 255);
+
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Space Mono", sans-serif;
+}
+
+@media (width <= 600px) {
+    .mobile-nav {
+        background-color: rgb(255, 252, 235);
+        padding: 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+        position: relative;
+        margin: auto;
+    }
+    
+    .logo {
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+    .hamburger-menu {
+        width: 50px;
+        
+    }
+    
+    .menu-container {
+        display: none;
+        position: absolute;
+        bottom: -370px;
+        left: 0;
+        right: 0;
+    }
+    
+    .menu-container li {
+        list-style: none;
+        display: block;
+    }
+    
+    .menu-container ul li a {
+        display: block;
+        text-decoration: none;
+        background-color: rgb(43, 36, 1);
+        color: white;
+        padding: 20px;
+        font-size: large;
+        transition: .3s;
+    }
+    
+    .menu-container ul li a:hover {
+        padding-left: 40px;
+        background-color: rgb(92, 77, 1);
+    }
+
+    .Image-container {
+        display: flex;
+        position: relative;
+        margin: auto;
+        
+    }
+
+    .gold-image {
+        width: 100%;
+    }
+
+    .paragraph-container {
+        background-color: var(--clr-primary-1);
+        position: absolute;
+        bottom: -50px;
+        margin: 0 30px;
+        padding: 15px;
+        box-shadow: 5px 5px 5px rgba(0,0,0, .2);
+    }
+
+    .paragraph-container h1 {
+        text-align: center;
+        color: var(--clr-primary-2);
+        font-family: var(--ff-secondary);
+        line-height: 30px;
+    }
+
+    .this-here {
+        margin: 0 30px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: 900;
+        line-height: 30px;
+        
+    }
+
+    .register-link {
+        text-decoration: none;
+        background-color: var(--clr-primary-1);
+        color: var(--clr-primary-2);
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        margin: 0 60px;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .Introducing {
+        text-align: center;
+        margin: 0 30px;
+        margin-bottom: 300px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+
+@media (width >= 600px ) {
+
+}
+
+
+
