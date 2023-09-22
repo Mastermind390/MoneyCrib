@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 247, 238);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    
+}
+
+
+:root {
+    --clr-primary-1: rgb(95, 81, 0);
+    --clr-primary-2: rgb(255, 255, 255);
+
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Space Mono", sans-serif;
+
+    --ff-line-height: 30px;
+    --ff-line-height-d: 60px;
+    --ff-font-weigth: 400;
+
+    --mm-margin: 0 30px;
+    --mm--margin-bottom: 30px;
+
+    --mm--margin-bottom-d: 80px;
+
+    --tt-text-align: center;
+
+    /*ipad screeen*/
+
+    --ff-line-height-i: 50px;
+    --ff-font-size-1: xx-large;
+}
+
+@media (width <= 600px) {
+
+    .h1-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        font-family: var(--ff-secondary);
+        color: var(--clr-primary-1)
+    }
+
+    .h1-container div {
+        height: 5px;
+        width: 20%;
+        background-color: var(--clr-primary-1);
+        margin-bottom: 5px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+
+    }
+
+    .form-container {
+        background-color: rgb(255, 241, 161);
+        padding: 30px 40px;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .4);
+        margin: auto;
+    }
+
+    .form-container div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .form-container div input {
+        padding: 5px;
+        border: none;
+    }
+
+    .form-container div label {
+        margin-bottom: 5px;
+    }
+
+    .form-container div span{
+        margin-top: 5px;
+        color: red;
+    }
+
+    .submit-button {
+        background-color: var(--clr-primary-1);
+        border: none;
+        padding: 15px 70px;
+        color: white;
+        border-radius: 5px;
+        font-size: large;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .login-span a {
+        font-size: large;
+    }
+
+}
