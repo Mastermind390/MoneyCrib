@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 247, 238);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    
+}
+
+
+:root {
+    --clr-primary-1: rgb(95, 81, 0);
+    --clr-primary-2: rgb(255, 255, 255);
+
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Space Mono", sans-serif;
+
+    --ff-line-height: 30px;
+    --ff-line-height-d: 60px;
+    --ff-font-weigth: 400;
+
+    --mm-margin: 0 30px;
+    --mm--margin-bottom: 30px;
+
+    --mm--margin-bottom-d: 80px;
+
+    --tt-text-align: center;
+
+    /*ipad screeen*/
+
+    --ff-line-height-i: 50px;
+    --ff-font-size-1: xx-large;
+}

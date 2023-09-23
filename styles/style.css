@@ -309,9 +309,18 @@ body {
     .menu-container ul li a {
         display: block;
         text-decoration: none;
-        color: var(--clr-primary-1);
+        color: black;
         padding: 10px;
         font-size: 1.1rem;
+    }
+
+    .login {
+        background-color: gold;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: white;
+        transition: .1s;
+        margin-right: 10px;
     }
 
     .Image-container {
@@ -455,7 +464,7 @@ body {
    
 
     footer {
-        background-color: rgb(34, 29, 0);
+        background-color: var(--clr-primary-1);
         padding: 50px;
     }
 
@@ -480,7 +489,6 @@ body {
         font-size: large;
         text-decoration: none;
         color: rgb(255, 237, 138);
-        font-size: var(--ff-font-size-1);
     }
 
     .social-list {
@@ -493,7 +501,7 @@ body {
     }
 
     .social-list svg {
-        width: 60px;
+        width: 40px;
         margin-right: 15px;
     }
 
@@ -608,7 +616,7 @@ body {
         color: var(--clr-primary-2);
         display: flex;
         justify-content: center;
-        margin: 0 500px;
+        margin: 0 300px;
         padding: 20px;
         border: none;
         border-radius: 10px;
@@ -717,7 +725,7 @@ body {
 
     footer {
         margin: auto;
-        background-color: rgb(34, 29, 0);
+        background-color: var(--clr-primary-1);
         padding: 50px;
         margin-top: 80px;
         
